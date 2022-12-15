@@ -1,13 +1,13 @@
 #include "main.h"
-#include <stdio.h>i
+#include <unistd.h>i
 
 /**
-  * main - check the code for Holberton School students.
+  * main - check the functions provided.
   *
-  * Return: Always 0.
+  * Return 1, if c is a digit
   */
 
-int main(void)
+int _isdigit(int c)
 {
 char c;
 
