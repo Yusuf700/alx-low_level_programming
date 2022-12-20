@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * reset_to_98.c and update the value of n to 98
+ * @n: imput
+ * Return: 1
+ */
+
+void reset_to_98(int *n);
+{
+	*n = 98;
+}
