@@ -1,26 +1,24 @@
 #include "main.h"
-
 /**
- * mai - main function checks if c is upper or lowercase
- * _isupper - Check if paramter c represents an uppercase letter.
- * @c: Int representing a character
- * Return: Always 0.
+ * _isupper - program startup
+ * @c: int being evaluated
+(*
+ * Description: checks for an uppercase character
+ * and returns `1` if `c` is uppercase
+ * and returns `0` otherwise)?
+ * Return: return (0) exits program successfully, return (1) throws an error
  */
 
-int _isupper(int c)
-{
-	if (c >= 65 && c <= 90)
-	{
-	
-		return (1);
 
+int _isupper(int c)
+	int c
+	{
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
 	}
 	else
 	{
-
-	return (0);
-
+		return (0);
 	}
 }
-
-
