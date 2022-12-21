@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * puts2 - prints onr character out of two
- * @str: string
- * Return: print
+ * puts2 - prints every character of a string
+ * @str: a pointer to a string that will be changed
+ * Return: void which means thwy are correct
  */
+
 void puts2(char *str)
 {
-	int i = 0;
+int a;
 
-	for (; str[i] != '\0'; i++)
-	{
-		if ((i % 2) == 0)
-			_putchar(str[i]);
-		else
-			continue;
-		_putchar('\n');
-	}
+for (a = 0; str[a] != '\0'; a++)
+{
+if (a % 2 == 0)
+putchar(str[a]);
+}
+
+putchar('\n');
 }
